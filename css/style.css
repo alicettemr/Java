@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+
+
+main{
+    display: flex;
+    width: 100vw;
+}
+
+header{
+    color: bisque;
+    display: flex;
+    align-items: center;
+    background-color: rgb(59, 31, 44);
+    width: 100vw;
+    min-height: 10vh;
+}
+article{
+    color: antiquewhite;
+    display: flex;
+    background-color: rgb(51, 40, 32);
+    min-height: 100%;
+}
+
+.barre{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+.info{
+    display: flex;
+    background-color: rgb(51, 40, 32);
+    width: 100vw;
+    min-height: 20vh;
+
+}
+.flex{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+.scul{
+    display: flex;
+    width: 50%;
+    background-color: black;
+}
+/* .elbernini{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-width: 10vh
+}
+.sculpture{
+    width: 10vw;
+} */
+.image1{
+    width: 90%;
+}
+footer{
+    color: white;
+    background-color: rgb(59, 31, 44);
+    width: 100vw;
+    min-height: 10vh;
+}
+
+@media screen and (max-width: 320px) { /** je comprends pas pourquoi mon responsive ne change pas quand je change les pixels sur le site et ça le fait pour n'importe quel paramêtre de pixel**/
+    body{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 481px) { 
+    body{
+        width: 70%; 
+    }
+}
+
+/*point de rupture
+Desktop : au delà de 1024 pixels
+Tablette : entre 600 et 1024 pixels (en mode portrait)
+Mobile : entre 320 et 600 pixels (en mode portrait)
+cela sont des moyennes de tailles d ecran */
+/* @media (min-width:320px)  { smartphones, iPhone, portrait 480x320 phones  }*/
+/* @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  }*/
+/*@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones  }*/
+/*@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops  }*/
+/*@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops  }*/
+/*@media (min-width:1281px) {  hi-res laptops and desktops  }*/
+
+/* @media screen and(min-width:200px) and (max-width:780px){
+} */
